@@ -1,0 +1,57 @@
+.mt-30{
+	margin-top: 30px;
+	margin-left: 13px;
+}
+
+.test_center{
+	text-align: center;
+}
+
+.test_right{
+	text-align: right;
+}
+.color_black{
+	color: black;
+}
+
+.cau_hoi{
+	font-size: 15px;
+}
+
+.ml-5{
+	margin-left: 5px;
+}
+.ml-3{
+	margin-left: 3px;
+}
+.mt-3{
+	margin-top: 3px;
+}
+
+.cau_hoi2{
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 20px;
+}
+
+.khung{
+	border: 2px solid gray;
+}
+
+.mr-3{
+	margin-right: 1px;
+}
+
+.noi_dung{
+	font-size: 15px;
+	color: black;
+}
+
+.mr-30{
+	margin-right: 30px;
+}
+
+.de_thi{
+	font-size: 50px;
+}
