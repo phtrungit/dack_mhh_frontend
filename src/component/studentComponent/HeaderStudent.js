@@ -5,6 +5,7 @@ import Button from '@material-ui/core/Button'
 import accountIcon from '@material-ui/icons/AccountCircle'
 import {logOut} from "../../actions";
 import axios from "axios/index";
+import '../../styles/header.css'
 class HeaderStudent extends Component {
     constructor() {
         super()

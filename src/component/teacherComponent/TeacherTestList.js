@@ -62,7 +62,7 @@ class EditTestComponent extends Component {
         this.props.history.push(path);
     }
     componentDidMount() {
-        axios.get(`https://server-dack-mhh.herokuapp.com/selectExam?id=${this.props.users.id}`)
+        axios.get(`http://localhost:4200/selectExam?id=${this.props.users.id}`)
             .then(res => {
                 var data = res.data;
                 console.log(data);

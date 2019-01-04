@@ -20,7 +20,7 @@ class HeaderTeacher extends Component {
                     <div className="logo_container">
                         <div class="logo">
                             <img src={require('../../images/logo.png')} />
-                            <span>course</span>
+                            <span>Ex-Ol</span>
                         </div>
                     </div>
                     <nav className="main_nav_container">
@@ -31,7 +31,6 @@ class HeaderTeacher extends Component {
                                 <li className="main_nav_item"><Link to ='/teachertestlist'>Danh sách bài thi đã tạo</Link></li>
                                 <li className="main_nav_item"><Link to ='/studentscharts'>Bảng xếp hạng học sinh</Link></li>
                                 <li className="main_nav_item"><Link to ='/teacherscharts'>Bảng xếp hạng giáo viên</Link></li>
-                            
                             </ul>
                         </div>
                     </nav>

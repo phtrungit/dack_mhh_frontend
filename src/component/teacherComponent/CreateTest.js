@@ -71,7 +71,7 @@ class EditTestComponent extends Component {
         event.preventDefault()
         console.log(this.state)
         await axios
-            .post('https://server-dack-mhh.herokuapp.com/createExam', {
+            .post('http://localhost:4200/createExam', {
                 tenDeThi:this.state.tenDeThi,
                 soCauHoi:this.state.soCauHoi,
                 time:this.state.time,
@@ -88,7 +88,7 @@ class EditTestComponent extends Component {
                     alert( 'Lỗi!')
                 }
             })
-        axios.get(`https://server-dack-mhh.herokuapp.com/selectExam?id=${this.props.users.id}`)
+        axios.get(`http://localhost:4200/selectExam?id=${this.props.users.id}`)
             .then(res => {
                 var data = res.data;
                 console.log(data);
@@ -100,7 +100,7 @@ class EditTestComponent extends Component {
             });
     }
     componentDidMount() {
-        axios.get(`https://server-dack-mhh.herokuapp.com/selectExam?id=${this.props.users.id}`)
+        axios.get(`http://localhost:4200/selectExam?id=${this.props.users.id}`)
             .then(res => {
                 var data = res.data;
                 console.log(data);
