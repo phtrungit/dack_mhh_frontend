@@ -32,7 +32,7 @@ class TestComponent extends Component {
     componentDidMount() {
         console.log('STATE',this.props.match.params.id);
 
-        var req = 'http://localhost:4200/detail-ex/?id=' + this.props.match.params.id;
+        var req = 'https://server-dack-mhh.herokuapp.com/detail-ex/?id=' + this.props.match.params.id;
         console.log(req);
         axios.get(req)
             .then(res => {
