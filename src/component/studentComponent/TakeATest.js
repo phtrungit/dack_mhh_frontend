@@ -25,7 +25,7 @@ class TestComponent extends Component {
     componentDidMount() {
         console.log('STATE',this.props.match.params.idExam);
         var idExam = this.props.match.params.idExam;
-        var req = 'http://localhost:4200/getTestExam?id=' + idExam;
+        var req = 'https://server-dack-mhh.herokuapp.com/getTestExam?id=' + idExam;
         console.log(req);
         axios.get(req)
         .then(res => {
