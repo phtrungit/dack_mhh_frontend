@@ -31,7 +31,7 @@ class CreateTestComponent extends Component {
         event.preventDefault()
         console.log(this.state)
         await axios
-            .post('http://localhost:4200/createQuestion', {
+            .post('https://server-dack-mhh.herokuapp.com/createQuestion', {
                 examId:this.props.match.params.id,
                 text:this.state.text,
                 optionA:this.state.optionA,
