@@ -61,7 +61,7 @@ class SimpleTable extends React.Component{
 
 
     componentDidMount() {
-        axios.get(`http://localhost:4200/selectTeacherTestList?id=${this.props.match.params.id}`)
+        axios.get(`https://server-dack-mhh.herokuapp.com/selectTeacherTestList?id=${this.props.match.params.id}`)
             .then(res => {
                 var data = res.data;
                 console.log(data);
