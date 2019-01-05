@@ -85,7 +85,7 @@ class SignUp extends React.Component
         event.preventDefault()
         console.log('handleSubmit')
         axios
-            .post('http://localhost:4200/signup', {
+            .post('https://server-dack-mhh.herokuapp.com/signup', {
                 username:this.state.username,
                 password:this.state.password,
                 email:this.state.email,
